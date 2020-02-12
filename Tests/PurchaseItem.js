@@ -187,7 +187,7 @@ describe("AutomationPractice",function()
 
        /*Assertion*/
        expect(payment.successMessage.getText()).toBe(dd.data.successMsg_data);
-       browser.sleep(4000);
+       browser.sleep(1000);
 
        /*SignOut*/
        homePage.signOut.click();
