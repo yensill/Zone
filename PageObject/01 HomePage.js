@@ -11,5 +11,10 @@ function homePage()
         browser.get("http://automationpractice.com/");
     };
 
+    this.getURL_sil = function()
+    {
+        browser.get("http://automationpractice.com/");
+    };
+
 };
 module.exports = new homePage();
