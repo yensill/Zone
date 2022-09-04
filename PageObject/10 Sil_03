@@ -4,7 +4,8 @@ function dummy1()
     this.payByBankWire  = element(by.partialLinkText("Pay by bank wire"));
     this.confirmPayment = element(by.id("module-bankwire-payment")).element(by.buttonText("I confirm my order"));
     this.success        = element(by.css("div[class='box']"));
-    this.successMessage = this.success.element(by.css("strong[class='dark']"));
+    this.successMessage = this.success.element(by.css("light[class='pink']"));
+    this.pt_change1     = element(by.css("div[class='box']"));
     //element(by.css("strong[class='dark']"));
 
 };
